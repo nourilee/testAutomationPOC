@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Selenium01" parallel="false">
+  <test name="irfs.billing" junit="true">
+    <!-- <classes>
+      <class name="irfs.billing.BillingAdjPrint"/>
+    </classes> -->
+	<packages>
+    	<package name="irfs.billing"/>
+  	</packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
